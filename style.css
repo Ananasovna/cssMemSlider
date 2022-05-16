@@ -63,6 +63,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400;}
   /* border: 1px solid red; */
 }
 
+
 input {
 	display: none;
 }
@@ -164,9 +165,9 @@ label:hover {
   margin-top: -27%;
 }
 
-#slide-1:checked ~ bottom .controls .label-1,
-#slide-2:checked ~ bottom .controls .label-2,
-#slide-3:checked ~ bottom .controls .label-3,
-#slide-4:checked ~ bottom .controls .label-4 {
-  background: rgb(235, 32, 32);
+#slide-1:checked ~ .bottom .controls .label-1,
+#slide-2:checked ~ .bottom .controls .label-2,
+#slide-3:checked ~ .bottom .controls .label-3,
+#slide-4:checked ~ .bottom .controls .label-4 {
+  opacity: 1;
 }
